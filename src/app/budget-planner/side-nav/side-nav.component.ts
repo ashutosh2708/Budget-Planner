@@ -21,6 +21,7 @@ export class SideNavComponent {
 
   onDash() {
     this.isSlideOut = !this.isSlideOut;
+    this.router.navigate(['/budget-planner/dashboard']);
   }
 
   onProfile() {
