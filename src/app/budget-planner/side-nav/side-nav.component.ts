@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-side-nav',
   standalone: true,
-  imports: [MatIconModule,CommonModule],
+  imports: [MatIconModule, CommonModule],
   templateUrl: './side-nav.component.html',
   styleUrl: './side-nav.component.scss',
 })

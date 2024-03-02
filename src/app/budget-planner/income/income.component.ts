@@ -86,7 +86,7 @@ export class IncomeComponent {
     }
     return filteredIncomes;
   }
-  
+
   onSubmit() {
     if (this.incomeForm.valid) {
       const newIncome = this.incomeForm.value;
